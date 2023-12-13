@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 let corsOptions = {
-  origin: "http://localhost:3000",
+  origin: ["http://localhost:3000", "https://gcs-integration-b1nb1bih7-amit456789.vercel.app"]
 };
 
 app.use(cors(corsOptions));
